@@ -1,0 +1,17 @@
+C:\projeto\backend-test\Application\bin\Debug\net6.0\Application.deps.json
+C:\projeto\backend-test\Application\bin\Debug\net6.0\Application.dll
+C:\projeto\backend-test\Application\bin\Debug\net6.0\Application.pdb
+C:\projeto\backend-test\Application\bin\Debug\net6.0\Domain.dll
+C:\projeto\backend-test\Application\bin\Debug\net6.0\Infra.dll
+C:\projeto\backend-test\Application\bin\Debug\net6.0\Domain.pdb
+C:\projeto\backend-test\Application\bin\Debug\net6.0\Infra.pdb
+C:\projeto\backend-test\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\projeto\backend-test\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeto\backend-test\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\projeto\backend-test\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\projeto\backend-test\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\projeto\backend-test\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\projeto\backend-test\Application\obj\Debug\net6.0\Application.dll
+C:\projeto\backend-test\Application\obj\Debug\net6.0\refint\Application.dll
+C:\projeto\backend-test\Application\obj\Debug\net6.0\Application.pdb
+C:\projeto\backend-test\Application\obj\Debug\net6.0\ref\Application.dll

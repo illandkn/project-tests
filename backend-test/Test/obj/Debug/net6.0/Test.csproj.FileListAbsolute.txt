@@ -1,0 +1,12 @@
+C:\projeto\backend-test\Test\bin\Debug\net6.0\Test.deps.json
+C:\projeto\backend-test\Test\bin\Debug\net6.0\Test.dll
+C:\projeto\backend-test\Test\bin\Debug\net6.0\Test.pdb
+C:\projeto\backend-test\Test\obj\Debug\net6.0\Test.csproj.AssemblyReference.cache
+C:\projeto\backend-test\Test\obj\Debug\net6.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeto\backend-test\Test\obj\Debug\net6.0\Test.AssemblyInfoInputs.cache
+C:\projeto\backend-test\Test\obj\Debug\net6.0\Test.AssemblyInfo.cs
+C:\projeto\backend-test\Test\obj\Debug\net6.0\Test.csproj.CoreCompileInputs.cache
+C:\projeto\backend-test\Test\obj\Debug\net6.0\Test.dll
+C:\projeto\backend-test\Test\obj\Debug\net6.0\refint\Test.dll
+C:\projeto\backend-test\Test\obj\Debug\net6.0\Test.pdb
+C:\projeto\backend-test\Test\obj\Debug\net6.0\ref\Test.dll
