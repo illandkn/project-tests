@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "gIWQ7O+rPRxASe2Gr7b7dOZgpHbwz4IGiPWs3llMmsGPCUO+6WP1SpbdEHPhXlCLAZ0Tk4UKVSZr5nWrTjwxXQ==",
+  "dgSpecHash": "VuiK9nf46IErCjE7J7SE79S9/Zeq5k3kYDbSvLNwHKoP5HNFJyyKNx1A3sCR9zw/scA3TR2A7olTGQalvNIhBw==",
   "success": true,
-  "projectFilePath": "C:\\projeto\\backend-test\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\illan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\illan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\illan\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
+    "C:\\Users\\illan\\.nuget\\packages\\extensions.fluentvalidation.br\\1.0.2\\extensions.fluentvalidation.br.1.0.2.nupkg.sha512",
+    "C:\\Users\\illan\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\illan\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\illan\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\illan\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

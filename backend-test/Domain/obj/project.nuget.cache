@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Q9gzH1EJGzDPKs4YDodoACh4l3wiYiPZUhaChBnWWFjal4rW8UQUGmlznZxA/MXvPt2oMeyto7BmjozG8k4AQw==",
+  "dgSpecHash": "IvayqlfuSa32J54JPGVndrN8tOLs2WuXznmRC/LSUtcnUa2Hdk+4iMHWZg/rXiZjLDic1LHBuM5o4BkJufa5Ig==",
   "success": true,
-  "projectFilePath": "C:\\projeto\\backend-test\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\illan\\.nuget\\packages\\extensions.fluentvalidation.br\\1.0.2\\extensions.fluentvalidation.br.1.0.2.nupkg.sha512",
+    "C:\\Users\\illan\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

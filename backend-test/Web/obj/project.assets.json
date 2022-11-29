@@ -62,6 +62,31 @@
           }
         }
       },
+      "Extensions.FluentValidation.Br/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {}
+        }
+      },
+      "FluentValidation/11.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1980,6 +2005,10 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Extensions.FluentValidation.Br": "1.0.2",
+          "FluentValidation": "11.4.0"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -2070,6 +2099,41 @@
         "lib/netstandard2.1/Castle.Core.dll",
         "lib/netstandard2.1/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "Extensions.FluentValidation.Br/1.0.2": {
+      "sha512": "ZVoXpIFkUhufHoO3/MkdIMZU0+8Mjy1K9TNd0zroT/J92SqU8V/ryZqVn4Mdbeq2aAC5yrtAhowg8Vd+FjSCSw==",
+      "type": "package",
+      "path": "extensions.fluentvalidation.br/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extensions.fluentvalidation.br.1.0.2.nupkg.sha512",
+        "extensions.fluentvalidation.br.nuspec",
+        "lib/netstandard2.0/FluentValidation.Extensions.Br.dll"
+      ]
+    },
+    "FluentValidation/11.4.0": {
+      "sha512": "WZJyrNf4suiaI6avVG32W9kmBLC3+V5rDTcLeRJjeU4tDmTyDIOz1459DzCKppXs34YpZg9rCUzDY3M4XxG7Ug==",
+      "type": "package",
+      "path": "fluentvalidation/11.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.4.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -5341,11 +5405,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projeto\\backend-test\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\projeto\\backend-test\\Web\\Web.csproj",
+      "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Web\\Web.csproj",
       "packagesPath": "C:\\Users\\illan\\.nuget\\packages\\",
-      "outputPath": "C:\\projeto\\backend-test\\Web\\obj\\",
+      "outputPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5366,11 +5430,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\projeto\\backend-test\\Application\\Application.csproj": {
-              "projectPath": "C:\\projeto\\backend-test\\Application\\Application.csproj"
+            "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Application\\Application.csproj"
             },
-            "C:\\projeto\\backend-test\\Infra\\Infra.csproj": {
-              "projectPath": "C:\\projeto\\backend-test\\Infra\\Infra.csproj"
+            "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\Infra.csproj"
             }
           }
         }

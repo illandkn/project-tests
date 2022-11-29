@@ -1,4 +1,6 @@
 ﻿using Domain.Enum;
+using Domain.Validation.User;
+using FluentValidation;
 
 namespace Domain.Entities
 {
@@ -44,6 +46,12 @@ namespace Domain.Entities
         public void Disable()
         {
             Ativo = false;
+        }
+
+        public void Validate()
+        {
+            var validator = new UserValidation();
+            validator.ValidateAndThrow(this);
         }
 
         public string Nome { get; protected set; }

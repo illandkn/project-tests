@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projeto\\backend-test\\Web\\Web.csproj": {}
+    "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\projeto\\backend-test\\Application\\Application.csproj": {
+    "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projeto\\backend-test\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\projeto\\backend-test\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\illan\\.nuget\\packages\\",
-        "outputPath": "C:\\projeto\\backend-test\\Application\\obj\\",
+        "outputPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projeto\\backend-test\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\projeto\\backend-test\\Domain\\Domain.csproj"
+              "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Domain\\Domain.csproj"
               },
-              "C:\\projeto\\backend-test\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\projeto\\backend-test\\Infra\\Infra.csproj"
+              "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\Infra.csproj": {
+                "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\Infra.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\projeto\\backend-test\\Domain\\Domain.csproj": {
+    "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projeto\\backend-test\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\projeto\\backend-test\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\illan\\.nuget\\packages\\",
-        "outputPath": "C:\\projeto\\backend-test\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -109,6 +109,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Extensions.FluentValidation.Br": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -129,14 +139,14 @@
         }
       }
     },
-    "C:\\projeto\\backend-test\\Infra\\Infra.csproj": {
+    "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projeto\\backend-test\\Infra\\Infra.csproj",
+        "projectUniqueName": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\projeto\\backend-test\\Infra\\Infra.csproj",
+        "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\illan\\.nuget\\packages\\",
-        "outputPath": "C:\\projeto\\backend-test\\Infra\\obj\\",
+        "outputPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -157,8 +167,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projeto\\backend-test\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\projeto\\backend-test\\Domain\\Domain.csproj"
+              "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Domain\\Domain.csproj"
               }
             }
           }
@@ -234,14 +244,14 @@
         }
       }
     },
-    "C:\\projeto\\backend-test\\Web\\Web.csproj": {
+    "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projeto\\backend-test\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\projeto\\backend-test\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\illan\\.nuget\\packages\\",
-        "outputPath": "C:\\projeto\\backend-test\\Web\\obj\\",
+        "outputPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -262,11 +272,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projeto\\backend-test\\Application\\Application.csproj": {
-                "projectPath": "C:\\projeto\\backend-test\\Application\\Application.csproj"
+              "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Application\\Application.csproj"
               },
-              "C:\\projeto\\backend-test\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\projeto\\backend-test\\Infra\\Infra.csproj"
+              "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\Infra.csproj": {
+                "projectPath": "C:\\Users\\illan\\Desktop\\project-test\\backend-test\\Infra\\Infra.csproj"
               }
             }
           }

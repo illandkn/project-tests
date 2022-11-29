@@ -19,6 +19,7 @@ namespace Application.Services.User
                                       request.Cpf, request.DataNascimento, request.Genero,
                                       request.EstadoCivil, request.Escolaridade, request.Curso,
                                       request.ExperienciaProfissional, request.PretensaoSalarial);
+            user.Validate();
             await _userRepository.Create(user);
         }
         public async Task Update(Guid id, UserRequestModel request)
@@ -29,6 +30,7 @@ namespace Application.Services.User
             user.Update(request.Nome, request.Email, request.Login, request.Senha, request.Cpf, 
                         request.DataNascimento, request.Genero, request.EstadoCivil, request.Escolaridade, 
                         request.Curso, request.ExperienciaProfissional, request.PretensaoSalarial, request.Ativo);
+            user.Validate();
             await _userRepository.Update(id, user);
         }
 
